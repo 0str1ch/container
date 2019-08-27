@@ -23,9 +23,9 @@ export default function Container({
 }) {
   return (
     <div {...props}>
-    <style jsx global>
+    <style jsx>
       {`
-        {
+        div {
           width: 100%;
           position: relative;
           margin: ${margin ? '0' : '0 auto'};
@@ -61,8 +61,7 @@ export default function Container({
               : ''
           }
         }
-        :after {
-          // BFC
+        div:after {
           content: '';
           display: table;
           clear: both;
