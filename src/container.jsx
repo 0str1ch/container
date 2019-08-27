@@ -1,4 +1,6 @@
-module.exports = ({
+import React from 'react'
+
+export default function Container({
   center,
   vCenter,
   dark,
@@ -18,8 +20,9 @@ module.exports = ({
   children,
   mobileStyle,
   ...props
-}) => (
-  <div {...props}>
+}) {
+  return (
+    <div {...props}>
     <style jsx>
       {`
         {
@@ -87,5 +90,5 @@ module.exports = ({
     </style>
     {children}
   </div>
-);
-
+  )
+}
