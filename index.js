@@ -1,4 +1,4 @@
-exports.container = ({
+module.exports = ({
   center,
   vCenter,
   dark,

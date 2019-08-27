@@ -2,9 +2,25 @@
   "name": "@0str1ch/container",
   "version": "0.2.0",
   "description": "Page level component wrapper to enforce padding, margin, and sizing for children for design parity throughout your project. ",
-  "main": "index.js",
+  "main": "./lib/container.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-preset-env": "latest",
+    "babel-preset-react": "latest",
+    "babel-preset-stage-0": "latest",
+    "path": "latest",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "latest",
+    "webpack-cli": "latest"
   },
   "repository": {
     "type": "git",
