@@ -23,7 +23,7 @@ export default function Container({
 }) {
   return (
     <div {...props}>
-    <style jsx>
+    <style jsx global>
       {`
         {
           width: 100%;
