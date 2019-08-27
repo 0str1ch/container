@@ -1,6 +1,6 @@
 {
   "name": "@0str1ch/container",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Page level component wrapper to enforce padding, margin, and sizing for children for design parity throughout your project. ",
   "main": "./lib/container.js",
   "scripts": {
