@@ -1,0 +1,25 @@
+{
+  "name": "@0str1ch/container",
+  "version": "0.1.0",
+  "description": "Page level component wrapper to enforce padding, margin, and sizing for children for design parity throughout your project. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0str1ch/container.git"
+  },
+  "keywords": [
+    "design",
+    "wrapper",
+    "react",
+    "nextjs"
+  ],
+  "author": "Jeremy Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0str1ch/container/issues"
+  },
+  "homepage": "https://github.com/0str1ch/container#readme"
+}
