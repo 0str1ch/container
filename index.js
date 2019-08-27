@@ -1,4 +1,4 @@
-exports.container = container({
+exports.container = ({
   center,
   vCenter,
   dark,
