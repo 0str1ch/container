@@ -8,9 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "next": "^9.0.5"
+    "react": ">= 16.8.6",
+    "react-dom": ">= 16.8.6",
+    "styled-jsx": ">= 3.2.1"
+
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
@@ -18,7 +19,6 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
-    "next": "^9.0.5",
     "path": "^0.12.7",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
